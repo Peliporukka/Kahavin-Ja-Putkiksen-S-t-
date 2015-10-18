@@ -26,14 +26,22 @@
       <sprite>sprites\spr_PlayerLeft</sprite>
       <sprite>sprites\spr_PlayerDownLeft</sprite>
     </sprites>
+    <sprite>sprites\Sprite_Floor_PlaceHolder</sprite>
+    <sprite>sprites\Sprite_Wall_PlaceHolder</sprite>
+    <sprite>sprites\Sprite_Weapon_Placeholder</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
+    <object>objects\Floor_Placeholder</object>
+    <object>objects\Wall_Placeholder</object>
+    <object>objects\Weapon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Game</room>
+    <room>rooms\First_Room</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
