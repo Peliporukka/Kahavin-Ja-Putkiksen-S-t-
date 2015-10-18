@@ -5,9 +5,36 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="spr_Placeholder8Dir">
+      <sprite>sprites\spr_PlaceholderDown</sprite>
+      <sprite>sprites\spr_PlaceholderDownRight</sprite>
+      <sprite>sprites\spr_PlaceholderRight</sprite>
+      <sprite>sprites\spr_PlaceholderUpRight</sprite>
+      <sprite>sprites\spr_PlaceholderUp</sprite>
+      <sprite>sprites\spr_PlaceholderUpLeft</sprite>
+      <sprite>sprites\spr_PlaceholderLeft</sprite>
+      <sprite>sprites\spr_PlaceholderDownLeft</sprite>
+    </sprites>
+    <sprites name="spr_Player">
+      <sprite>sprites\spr_PlayerDown</sprite>
+      <sprite>sprites\spr_PlayerDownRight</sprite>
+      <sprite>sprites\spr_PlayerRight</sprite>
+      <sprite>sprites\spr_PlayerUpRight</sprite>
+      <sprite>sprites\spr_PlayerUp</sprite>
+      <sprite>sprites\spr_PlayerUpLeft</sprite>
+      <sprite>sprites\spr_PlayerLeft</sprite>
+      <sprite>sprites\spr_PlayerDownLeft</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_Player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_Game</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
