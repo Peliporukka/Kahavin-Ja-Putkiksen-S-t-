@@ -42,7 +42,8 @@
     <object>objects\Wall_Placeholder</object>
     <object>objects\obj_WeaponSpawner</object>
     <object>objects\obj_Shotgun</object>
-    <object>objects\obj_Bullet</object>
+    <object>objects\obj_Bullet1</object>
+    <object>objects\obj_Bullet2</object>
     <object>objects\obj_PlayerDead</object>
   </objects>
   <rooms name="rooms">
