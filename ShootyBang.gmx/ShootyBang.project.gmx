@@ -28,7 +28,8 @@
     </sprites>
     <sprite>sprites\Sprite_Floor_PlaceHolder</sprite>
     <sprite>sprites\Sprite_Wall_PlaceHolder</sprite>
-    <sprite>sprites\Sprite_Weapon_Placeholder</sprite>
+    <sprite>sprites\spr_WeaponSpawner</sprite>
+    <sprite>sprites\spr_Shotgun</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -36,11 +37,12 @@
     <object>objects\obj_Player</object>
     <object>objects\Floor_Placeholder</object>
     <object>objects\Wall_Placeholder</object>
-    <object>objects\Weapon</object>
+    <object>objects\obj_WeaponSpawner</object>
+    <object>objects\obj_Shotgun</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Game</room>
     <room>rooms\First_Room</room>
+    <room>rooms\rm_Game</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
