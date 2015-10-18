@@ -30,7 +30,7 @@
     <sprite>sprites\Sprite_Wall_PlaceHolder</sprite>
     <sprite>sprites\spr_WeaponSpawner</sprite>
     <sprite>sprites\spr_Shotgun</sprite>
-    <sprite>sprites\spr_menuArrow</sprite>
+ refs/remotes/origin/kahavi
   </sprites>
   <backgrounds name="background">
     <background>background\bck_menu</background>
@@ -44,13 +44,13 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Player</object>
+    <object>objects\obj_Player1</object>
+    <object>objects\obj_Player2</object>
     <object>objects\Floor_Placeholder</object>
     <object>objects\Wall_Placeholder</object>
     <object>objects\obj_WeaponSpawner</object>
     <object>objects\obj_Shotgun</object>
-    <object>objects\obj_menu</object>
-    <object>objects\obj_lvlSelect</object>
+refs/remotes/origin/kahavi
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
