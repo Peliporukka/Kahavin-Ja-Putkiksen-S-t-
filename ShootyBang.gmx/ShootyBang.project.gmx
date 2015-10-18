@@ -54,6 +54,7 @@
     <object>objects\obj_lvlSelect</object>
     <object>objects\obj_WeaponSpawner</object>
     <object>objects\obj_Shotgun</object>
+e6810f45e4283b3484bb81953ab5ea874ef6ff52
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
