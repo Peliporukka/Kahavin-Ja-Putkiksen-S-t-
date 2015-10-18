@@ -1,0 +1,36 @@
+Aseita
+	- laser
+	- kranaatti (lentää staattisen matkan)
+	- miekka/baseball bat tjsp
+	- nyrkki/puukko (default)
+	- miinoja
+	- turret?
+	- Snipu
+	- rail-gun
+	- hakeutuva raketti (tietyn etäisyyden päästä)
+	- klooni
+
+ 
+Kenttiä
+	- Metsä
+	- MudPit
+	- Lavaa, kuten aina
+	- fox only, final destination
+	- kentästä tippuminen (how to?)
+	- teema kentät (well-known)
+
+
+
+Power Uppeja
+	- HOOPEETA
+	- BodyArmor/vastaava
+	- näkymättömyys
+
+	
+Random spawn aseille (voidaan kokeilla)
+Kenttien Random generaatio (tutkitaan)
+
+
+Kaukaisessa tulevaisuudessa katsellaan nettitoimintoja
+
+		
