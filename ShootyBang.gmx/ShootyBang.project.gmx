@@ -30,26 +30,36 @@
     <sprite>sprites\Sprite_Wall_PlaceHolder</sprite>
     <sprite>sprites\spr_WeaponSpawner</sprite>
     <sprite>sprites\spr_Shotgun</sprite>
+    <sprite>sprites\spr_menuArrow</sprite>
     <sprite>sprites\spr_Bullet</sprite>
-    <sprite>sprites\spr_PlayerDead</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bck_menu</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_lvlSelect.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Player1</object>
     <object>objects\obj_Player2</object>
     <object>objects\Floor_Placeholder</object>
     <object>objects\Wall_Placeholder</object>
+    <object>objects\obj_menu</object>
+    <object>objects\obj_Bullet</object>
+    <object>objects\obj_lvlSelect</object>
     <object>objects\obj_WeaponSpawner</object>
     <object>objects\obj_Shotgun</object>
-    <object>objects\obj_Bullet1</object>
-    <object>objects\obj_Bullet2</object>
-    <object>objects\obj_PlayerDead</object>
+e6810f45e4283b3484bb81953ab5ea874ef6ff52
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Menu</room>
+    <room>rooms\Second_Room</room>
     <room>rooms\First_Room</room>
-    <room>rooms\rm_Game</room>
-    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
