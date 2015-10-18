@@ -305,7 +305,7 @@ else{
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_PlayerDead</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -479,7 +479,7 @@ else{
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Bullet</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
