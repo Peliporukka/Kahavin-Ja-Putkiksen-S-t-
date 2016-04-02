@@ -66,12 +66,18 @@
     <room>rooms\First_Room</room>
     <room>rooms\rm_Menu</room>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <room>rooms\Second_Room</room>
 =======
     <room>rooms\lvlSelect</room>
     <room>rooms\First_Room</room>
     <room>rooms\basic</room>
 >>>>>>> refs/remotes/origin/master
+=======
+    <room>rooms\lvlSelect</room>
+    <room>rooms\First_Room</room>
+    <room>rooms\basic</room>
+>>>>>>> master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
