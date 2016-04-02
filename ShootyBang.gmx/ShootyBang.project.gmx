@@ -25,6 +25,7 @@
       <sprite>sprites\spr_PlayerUpLeft</sprite>
       <sprite>sprites\spr_PlayerLeft</sprite>
       <sprite>sprites\spr_PlayerDownLeft</sprite>
+      <sprite>sprites\spr_PlayerDead</sprite>
     </sprites>
     <sprite>sprites\Sprite_Floor_PlaceHolder</sprite>
     <sprite>sprites\Sprite_Wall_PlaceHolder</sprite>
@@ -47,6 +48,7 @@
   <objects name="objects">
     <object>objects\obj_Player1</object>
     <object>objects\obj_Bullet2</object>
+    <object>objects\obj_PlayerDead</object>
     <object>objects\obj_Bullet1</object>
     <object>objects\obj_Player2</object>
     <object>objects\Floor_Placeholder</object>
@@ -56,11 +58,12 @@
     <object>objects\obj_lvlSelect</object>
     <object>objects\obj_WeaponSpawner</object>
     <object>objects\obj_Shotgun</object>
+    <object>objects\obj_Controller</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\First_Room</room>
     <room>rooms\rm_Menu</room>
     <room>rooms\Second_Room</room>
-    <room>rooms\First_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
