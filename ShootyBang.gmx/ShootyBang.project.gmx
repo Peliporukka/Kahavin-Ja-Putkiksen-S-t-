@@ -22,6 +22,7 @@
       <sprite>sprites\spr_PlayerRight</sprite>
       <sprite>sprites\spr_PlayerUpRight</sprite>
       <sprite>sprites\spr_PlayerUp</sprite>
+      <sprite>sprites\spr_PlayerDead</sprite>
       <sprite>sprites\spr_PlayerUpLeft</sprite>
       <sprite>sprites\spr_PlayerLeft</sprite>
       <sprite>sprites\spr_PlayerDownLeft</sprite>
@@ -50,6 +51,7 @@
     <object>objects\obj_Bullet2</object>
     <object>objects\obj_PlayerDead</object>
     <object>objects\obj_Bullet1</object>
+    <object>objects\obj_PlayerDead</object>
     <object>objects\obj_Player2</object>
     <object>objects\Floor_Placeholder</object>
     <object>objects\Wall_Placeholder</object>
@@ -63,7 +65,13 @@
   <rooms name="rooms">
     <room>rooms\First_Room</room>
     <room>rooms\rm_Menu</room>
+<<<<<<< HEAD
     <room>rooms\Second_Room</room>
+=======
+    <room>rooms\lvlSelect</room>
+    <room>rooms\First_Room</room>
+    <room>rooms\basic</room>
+>>>>>>> refs/remotes/origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
