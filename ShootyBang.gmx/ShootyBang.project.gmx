@@ -61,8 +61,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Menu</room>
-    <room>rooms\Second_Room</room>
+    <room>rooms\lvlSelect</room>
     <room>rooms\First_Room</room>
+    <room>rooms\basic</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

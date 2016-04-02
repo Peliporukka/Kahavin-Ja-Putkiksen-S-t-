@@ -58,8 +58,8 @@ mpos = 0; //Menu Position, basically tells where our cursor is
           <argument>
             <kind>1</kind>
             <string>var move = 0;
-move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
-move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
+move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),gamepad_button_check_pressed(0,gp_padu),0);
+move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),gamepad_button_check_pressed(0,gp_padd),0);
 
 if( move !=0)
 {
@@ -73,7 +73,7 @@ if( move !=0)
 }
 
 var push;
-push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_shift),keyboard_check_released(vk_space),0);
+push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_shift),keyboard_check_released(vk_space),gamepad_button_check_released(0,gp_face1),0);
 if(push == 1)
     scr_menu();
 </string>
